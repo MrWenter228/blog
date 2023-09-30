@@ -4,8 +4,8 @@
 
 {% for p in posts %}
     <div> 
-        {{p.post_header}}
-        {{p.category.category_name}}
+        <a href = "{{p.get_absolute_url}}"> <h3> {{p.post_header}} </h3> </a>
+        {{p.category.category_name}}<br>
         {{p.post_datatime}}
     </div>
     <br>
