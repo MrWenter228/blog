@@ -1,10 +1,11 @@
 from django.db import models
 from django.urls import reverse
 
-# Create your models here.
+# Create class Category.
 class Category(models.Model):
     category_name = models.CharField(max_length=25)
-    
+
+# Create class Post.
 class Post(models.Model):
     post_header = models.CharField(max_length=50)
     post_text = models.TextField()
