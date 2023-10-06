@@ -14,4 +14,4 @@ class Post(models.Model):
     category = models.ForeignKey(Category,on_delete=models.SET_DEFAULT, default="no category")
 
     def get_absolute_url(self):
-        return reverse("post-details", args=[str(self.id)])
+        return reverse("post-details", args=[str(self.id)]) 
