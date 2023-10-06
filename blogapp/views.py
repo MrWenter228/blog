@@ -2,7 +2,7 @@ from django.shortcuts import render
 from .models import Post
 from django.views.generic import DetailView
 
-# Create your views here.
+# Create function index for posts
 
 def index(req):
 
