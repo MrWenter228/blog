@@ -1,0 +1,29 @@
+body{
+    background: rgb(146, 211, 248);
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background: #fafafa;
+    padding: 15px;
+}
+.link{
+    text-decoration: none;
+    color:rgb(255, 251, 6);
+}
+header .link{
+    color: #7f06af
+}
+.blogpost{
+    border: 2px solid;
+    width: 50%;
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 5%;
+    background: rgb(143, 233, 162);
+}
+.date{
+    float: right;
+    color: rgb(241, 0, 0)
+}
