@@ -3,7 +3,7 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 header{
-    background: #fafafa;
+    background: #b4ff2a;
     padding: 15px;
 }
 .link{
@@ -16,7 +16,7 @@ header .link{
 .blogpost{
     border: 2px solid;
     width: 50%;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-top: 20px;
     padding: 10px;
     padding-bottom: 20px;
@@ -25,5 +25,31 @@ header .link{
 }
 .date{
     float: right;
-    color: rgb(241, 0, 0)
+    color: rgb(241, 0, 0);
+}
+.nav-li{
+    display: inline-block;
+    margin-left: 10%;
+}
+.nav-li.first-child{
+    margin-left: 0%;
+}
+.content{
+    margin: 10px;
+    width: 75%;
+}
+.content h2{
+    margin-left: 25%;
+    font-size: 30px;
+}
+.post_text{
+    border-top: 4px solid rgb(168, 29, 187);
+}
+.post_text p{
+    font-size: 18px;
+}
+.author{
+    color: rgb(187, 13, 13);
+    float: right;
+    font-size: 20px;
 }
