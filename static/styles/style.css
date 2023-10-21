@@ -1,14 +1,14 @@
 body{
-    background: rgb(146, 211, 248);
+    background: rgb(93, 255, 101);
     font-family: 'Times New Roman', Times, serif;
 }
 header{
-    background: #b4ff2a;
+    background: #70caf3;
     padding: 15px;
 }
 .link{
     text-decoration: none;
-    color:rgb(255, 251, 6);
+    color:rgb(147, 0, 245);
 }
 header .link{
     color: #7f06af
@@ -47,9 +47,26 @@ header .link{
 }
 .post_text p{
     font-size: 18px;
+    width: 75%;
+    display: inline-block;
+}
+.post_text img{
+    margin-top: 0;
+    width: 23%;
+    position: relative;
+    top: -50px;
 }
 .author{
     color: rgb(187, 13, 13);
     float: right;
     font-size: 20px;
+}
+.logo{
+    width: 250px;
+    height: 125px;
+    margin-top: 10px;
+    margin-right: 15px;
+    position: absolute;
+    top: 100px;
+    left: 75%;
 }
