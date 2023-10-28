@@ -70,3 +70,11 @@ header .link{
     top: 100px;
     left: 75%;
 }
+.my-list{ 
+    width: 50%;
+
+}
+.my-list-item {
+    background: #e6da98;
+    margin: 5px;
+}
